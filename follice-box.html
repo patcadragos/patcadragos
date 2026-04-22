@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
         * {
             margin: 0;
@@ -109,11 +109,10 @@
         .nav-links a:hover::after { opacity: 1; }
 
         header.page-header {
-            padding: 8rem 2rem 4rem;
+            padding: calc(60px + 4rem) 2rem 4rem;
             background: linear-gradient(135deg, #0f0f0f 0%, #0a0a0a 100%);
             text-align: center;
             border-bottom: 1px solid var(--border);
-            margin-top: 60px;
         }
 
         header.page-header h1 {
@@ -151,7 +150,7 @@
             left: 0;
             top: 0;
             width: 4px;
-            height: 40px;
+            height: 47.5px;
             background: var(--accent);
         }
 
@@ -284,7 +283,7 @@
             }
 
             header.page-header {
-                padding: 6rem 1.5rem 3rem;
+                padding: calc(60px + 3rem) 1.5rem 3rem;
             }
 
             h1 { font-size: 2rem; }
@@ -322,12 +321,12 @@
         </div>
 
         <!-- PROJECT OVERVIEW -->
-        <section class="section-header">
-            <h2>Project Overview</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Project Overview</h2>
+            </div>
             <p>The FOLLICE BOX is an innovative autonomous follow-me cooler designed for outdoor environments. It combines a 50L insulated storage unit with a 24V motorized differential drive system, advanced obstacle detection, and up to 3 hours of runtime. Built for portability and efficiency, this project showcases autonomous robotics in a practical, consumer-friendly application.</p>
-            
+
             <h3>Key Specifications</h3>
             <table class="specs-table">
                 <tr>
@@ -374,13 +373,13 @@
         </section>
 
         <!-- MECHANICAL DESIGN -->
-        <section class="section-header">
-            <h2>Mechanical Design</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Mechanical Design</h2>
+            </div>
             <h3>Chassis & Structure</h3>
             <p>The Follice Box features a sturdy 24V motorized differential drive chassis designed for autonomous movement across varied terrain. The chassis supports the full 50L insulated storage unit with balanced weight distribution for optimal stability.</p>
-            
+
             <h3>Drive System</h3>
             <p>Differential drive mechanism enables precise turning and smooth acceleration. Two independently controlled motors provide responsive steering for obstacle avoidance and user tracking capabilities.</p>
 
@@ -389,10 +388,10 @@
         </section>
 
         <!-- ELECTRONICS & CONTROLS -->
-        <section class="section-header">
-            <h2>Electronics & Control Systems</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Electronics & Control Systems</h2>
+            </div>
             <div class="tech-tags">
                 <span class="tech-tag">ESP32</span>
                 <span class="tech-tag">Cytron MDDS30</span>
@@ -419,10 +418,10 @@
         </section>
 
         <!-- PROJECT PDF -->
-        <section class="section-header">
-            <h2>Complete Documentation</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Complete Documentation</h2>
+            </div>
             <div class="pdf-section">
                 <h3>Project PDF Presentation</h3>
                 <p>Download the complete FOLLICE BOX project documentation, including detailed system description, mechanical and electronic components, autonomous operation, user benefits, and essential technical data.</p>
@@ -446,10 +445,10 @@
         </section>
 
         <!-- PROJECT STATUS -->
-        <section class="section-header">
-            <h2>Project Status</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Project Status</h2>
+            </div>
             <div style="background: linear-gradient(135deg, rgba(255, 107, 0, 0.1), rgba(255, 107, 0, 0.05)); padding: 2rem; border-left: 4px solid var(--accent); border-radius: 4px; margin: 2rem 0;">
                 <p style="margin: 0;"><strong>Status: CONCEPT — IN DEVELOPMENT</strong></p>
                 <p style="margin: 0.75rem 0 0; font-size: 0.95rem;">This project is actively under development. The design phase is complete, and prototype construction is underway. Regular updates will track progress from prototype to final production-ready system.</p>
@@ -457,7 +456,7 @@
         </section>
 
         <!-- CALL TO ACTION -->
-        <section style="text-align: center; padding: 3rem 2rem;">
+        <section style="text-align: center;">
             <h3>Interested in This Project?</h3>
             <p>Learn more about autonomous robotics, electronics, and engineering solutions.</p>
             <a href="index.html#contact" class="btn">Get in Touch</a>

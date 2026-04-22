@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
         * {
             margin: 0;
@@ -109,11 +109,10 @@
         .nav-links a:hover::after { opacity: 1; }
 
         header.page-header {
-            padding: 8rem 2rem 4rem;
+            padding: calc(60px + 4rem) 2rem 4rem;
             background: linear-gradient(135deg, #0f0f0f 0%, #0a0a0a 100%);
             text-align: center;
             border-bottom: 1px solid var(--border);
-            margin-top: 60px;
         }
 
         header.page-header h1 {
@@ -151,7 +150,7 @@
             left: 0;
             top: 0;
             width: 4px;
-            height: 40px;
+            height: 45px;
             background: var(--accent);
         }
 
@@ -311,7 +310,7 @@
             }
 
             header.page-header {
-                padding: 6rem 1.5rem 3rem;
+                padding: calc(60px + 3rem) 1.5rem 3rem;
             }
 
             h1 { font-size: 2rem; }
@@ -353,12 +352,12 @@
         </div>
 
         <!-- PROJECT OVERVIEW -->
-        <section class="section-header">
-            <h2>Project Overview</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Project Overview</h2>
+            </div>
             <p>The Autonomous Polishing Assembly is a real-life, production-ready CNC project that combines mechanical engineering, precision manufacturing, and integrated electrical control systems. Designed in SolidWorks and manufactured through CNC precision machining, this machine is currently in active industrial use.</p>
-            
+
             <div class="tech-tags">
                 <span class="tech-tag">SolidWorks</span>
                 <span class="tech-tag">CNC Machining</span>
@@ -370,10 +369,10 @@
         </section>
 
         <!-- MECHANICAL DESIGN -->
-        <section class="section-header">
-            <h2>Mechanical Design</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Mechanical Design</h2>
+            </div>
             <h3>Structure & Framework</h3>
             <p><strong>Material:</strong> Industrial Bosch profile system provides a rigid, modular foundation for the entire assembly. This choice ensures precision alignment and long-term durability in production environments.</p>
             <p><strong>Support System:</strong> The machine features a custom support structure made from 4 Bosch profiles and an aluminum mounting plate. This aluminum plate serves as the structural backbone for all rotating and electrical components.</p>
@@ -388,10 +387,10 @@
         </section>
 
         <!-- CNC MANUFACTURING -->
-        <section class="section-header">
-            <h2>CNC Manufacturing Process</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>CNC Manufacturing Process</h2>
+            </div>
             <h3>From CAD to Production</h3>
             <ul>
                 <li><strong>3D Modeling in SolidWorks:</strong> Precision modeling of all custom components, including detailed motor models and mounting brackets</li>
@@ -410,10 +409,10 @@
         </section>
 
         <!-- ELECTRICAL CONTROL -->
-        <section class="section-header">
-            <h2>Electrical Control Systems</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Electrical Control Systems</h2>
+            </div>
             <h3>Control Panel Features</h3>
             <p>A custom electrical control panel integrates all safety and operational systems:</p>
             <ul>
@@ -432,10 +431,10 @@
         </section>
 
         <!-- PROJECT GALLERY -->
-        <section class="section-header">
-            <h2>Project Gallery</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Project Gallery</h2>
+            </div>
             <p>Real-world assembly and production images showcasing the complete machine:</p>
             <div class="gallery">
                 <div class="gallery-item">
@@ -492,10 +491,10 @@
         </section>
 
         <!-- CAD DOCUMENTATION -->
-        <section class="section-header">
-            <h2>3D Files & CAD Drawings</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>3D Files & CAD Drawings</h2>
+            </div>
             <div class="download-section">
                 <h3>STEP Files — Custom CNC Components</h3>
                 <p>Download SolidWorks STEP files for all custom-manufactured components:</p>
@@ -545,10 +544,10 @@
         </section>
 
         <!-- PROJECT SIGNIFICANCE -->
-        <section class="section-header">
-            <h2>Engineering Significance</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Engineering Significance</h2>
+            </div>
             <h3>Complete Engineering Lifecycle</h3>
             <p>This project demonstrates the full spectrum of modern mechanical engineering:</p>
             <ul>
@@ -572,10 +571,10 @@
         </section>
 
         <!-- PROJECT STATUS -->
-        <section class="section-header">
-            <h2>Project Status</h2>
-        </section>
         <section>
+            <div class="section-header">
+                <h2>Project Status</h2>
+            </div>
             <div style="background: linear-gradient(135deg, rgba(255, 107, 0, 0.1), rgba(255, 107, 0, 0.05)); padding: 2rem; border-left: 4px solid var(--accent); border-radius: 4px; margin: 2rem 0;">
                 <p style="margin: 0;"><strong>Status: IN PRODUCTION</strong></p>
                 <p style="margin: 0.75rem 0 0; font-size: 0.95rem;">This machine is actively manufactured and deployed in production environments. It represents a proven, field-tested engineering solution with demonstrated reliability and performance.</p>
@@ -583,7 +582,7 @@
         </section>
 
         <!-- CALL TO ACTION -->
-        <section style="text-align: center; padding: 3rem 2rem;">
+        <section style="text-align: center;">
             <h3>Interested in CNC & Precision Manufacturing?</h3>
             <p>Explore more engineering projects or discuss custom manufacturing solutions.</p>
             <a href="index.html#contact" class="btn">Get in Touch</a>
